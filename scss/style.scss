@@ -103,6 +103,10 @@ body {
       ::placeholder {
         opacity: 0.5;
       }
+
+      :focus {
+        outline: none;
+      }
     }
     &-button {
       width: 100%;

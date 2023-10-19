@@ -85,6 +85,9 @@ body {
 .access__form-input ::placeholder {
   opacity: 0.5;
 }
+.access__form-input :focus {
+  outline: none;
+}
 .access__form-button {
   width: 100%;
   padding: 9px 109px;
